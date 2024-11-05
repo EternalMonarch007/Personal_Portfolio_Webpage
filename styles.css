@@ -1,1 +1,33 @@
-
+*{
+    margin:0;
+  }
+  :root{
+    --nav-green: #E6F0DC;
+    --main-green:#C1E899;
+    --dark-green:#55883B;
+    --text-color:#9A6735;
+  }
+  .navbar-list{
+    display:flex;
+    justify-content: flex-end;
+    gap:20px;
+    list-style-type:none;
+    padding:30px;
+    margin:0;
+    border-bottom: 1px solid black;
+  }
+  .nav{
+    background-color:var(--nav-green);
+  }
+  body{
+    background-color:var(--main-green);
+  }
+  
+  section p,h2{
+    
+    font-family:sans-serif;
+    font-size:25px;
+    text-align:center;
+    padding-top:30px;
+  }
+  
