@@ -32,16 +32,29 @@ ul{
     flex-direction: row;
     flex-wrap: wrap;
     gap:10px;
+    justify-content:space-between;
 }
-.project-tile{
+.project-tile {
     border: 1px solid black;
     padding: 10px;
     margin: 3px;
-    width: 300px;
-    height: 300px;
-    flex: 1 1 200px;
+    width: 300px; /* Fixed width */
+    height: auto; /* Height adjusts based on content */
+    overflow: hidden; /* Keeps the content from spilling out */
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column; /* Stacks content vertically */
+    justify-content: start;
+    align-items: center;
     border-radius:10px;
-    box-shadow: black 2px 2px 5px;
+    box-shadow: #55883B 2px 2px 5px;
+}
+.project-content {
+    width: 100%; /* Ensures the content uses all available space */
+}
+.project-tile h3, .project-tile p {
+    margin: 5px 0; /* Adds spacing and improves readability */
+    text-align: center; /* Centers the text within the tile */
 }
 .project-tile:hover{
     box-shadow:orange 2px 2px 5px;
