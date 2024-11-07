@@ -46,6 +46,7 @@ ul{
 .project-tile:hover{
     box-shadow:orange 2px 2px 5px;
     cursor:pointer;
+    transform: translateY(-10px);
 }
 .line{
     border-bottom: 1px solid black;
