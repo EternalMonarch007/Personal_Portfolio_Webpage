@@ -1,0 +1,17 @@
+*{
+    box-border: border-box;
+    margin: 0;
+}
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    color: black;
+
+}
+body{
+    background-color: #C1E899;
+    font-family: sans-serif;
+
+}
