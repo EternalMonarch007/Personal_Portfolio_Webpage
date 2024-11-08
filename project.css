@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --main-green: #C1E899;
+    --dark-green: #55883B;
+    --nav-green: #A3D977;
+    --text-color: #000000;
+}
 
 h1{
     background-color: black;
@@ -38,32 +44,46 @@ ul{
     border: 1px solid black;
     padding: 10px;
     margin: 3px;
-    width: 300px; /* Fixed width */
-    height: auto; /* Height adjusts based on content */
-    overflow: hidden; /* Keeps the content from spilling out */
+    width: 300px;
+    height: auto; 
+    overflow: hidden; 
     word-wrap: break-word;
     display: flex;
-    flex-direction: column; /* Stacks content vertically */
+    flex-direction: column; 
     justify-content: start;
     align-items: center;
     border-radius:10px;
     box-shadow: #55883B 2px 2px 5px;
 }
 .project-content {
-    width: 100%; /* Ensures the content uses all available space */
+    width: 100%; 
+}
+.line2{
+  text-decoration:underline;
+  text-decoration-color: black;
+  
+}
+
+.headline{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color:blue;
+
 }
 .project-tile h3, .project-tile p {
-    margin: 5px 0; /* Adds spacing and improves readability */
-    text-align: center; /* Centers the text within the tile */
+    margin: 5px 0; 
+    text-align: center; 
 }
 .project-tile:hover{
-    box-shadow:orange 2px 2px 5px;
+    box-shadow:var(--text-color) 2px 2px 5px;
     cursor:pointer;
     transform: translateY(-10px);
 }
 .line{
     border-bottom: 1px solid black;
     margin: 10px;
+    box-shadow:0 10px 12px 0px var(--dark-green);
 }
 h2{
     color: black;
