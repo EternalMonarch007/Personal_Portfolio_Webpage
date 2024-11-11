@@ -17,7 +17,6 @@
     padding:20px;
     color: var(--text-color2);
     background-color: var(--text-color);
-    text-decoration: underline;
 }
 body{
     background-color: #C1E899;
@@ -34,5 +33,11 @@ body{
     border-bottom: 1px solid black;
 }
 h3{
+    text-align:center;
+}
+ul{
+    list-style-type: none;
+}
+.bullets{
     text-align:center;
 }

@@ -76,7 +76,7 @@ ul{
     text-align: center; 
 }
 .project-tile:hover{
-    box-shadow:var(--text-color) 2px 2px 5px;
+    box-shadow:orange 2px 2px 5px;
     cursor:pointer;
     transform: translateY(-10px);
 }
