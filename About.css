@@ -23,21 +23,19 @@ body{
     font-family: sans-serif;
 }
 .section-heading{
-    text-align:center;
     padding-top:30px;
 }
-.section:hover{
+.section{
    background-color:var(--nav-green);
 }
 .line{
     border-bottom: 1px solid black;
 }
-h3{
-    text-align:center;
-}
+
 ul{
     list-style-type: none;
 }
-.bullets{
-    text-align:center;
+
+.date{
+    text-decoration: underline;
 }
